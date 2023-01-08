@@ -8,5 +8,5 @@ rm -rf $KERNEL_PATH/out/ *.zip
 make mrproper && git reset --hard HEAD
 
 echo "=========================make========================="
-make O=out aries-perf-user_defconfig
+make O=out begonia_user_defconfig
 make O=out
